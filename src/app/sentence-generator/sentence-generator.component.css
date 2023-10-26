@@ -1,0 +1,30 @@
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #ffffcc; /* Fondo amarillo claro */
+  min-height: 100vh; /* Asegura que el fondo se extienda hasta el final de la pantalla */
+}
+
+.slot {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.result {
+  font-size: 20px;
+}
