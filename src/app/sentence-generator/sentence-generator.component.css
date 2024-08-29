@@ -1,30 +1,79 @@
 .slot-machine {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   margin: 20px;
-  background-color: #ffffcc; /* Fondo amarillo claro */
-  min-height: 100vh; /* Asegura que el fondo se extienda hasta el final de la pantalla */
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slots-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .slot {
-  width: 100px;
-  height: 50px;
-  border: 1px solid #000;
+  width: 120px;
+  height: 60px;
+  border: 2px solid #333;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  margin: 5px;
+  background-color: #fff;
+}
+
+.slot.invalid {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
 }
 
 button {
-  margin: 10px;
   padding: 10px 20px;
   font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
 
 .result {
   font-size: 20px;
+  margin-top: 20px;
+}
+
+.game-description {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #e9f7ef;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.game-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.game-description p {
+  font-size: 16px;
+  line-height: 1.5;
 }
