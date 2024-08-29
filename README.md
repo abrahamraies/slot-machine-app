@@ -32,13 +32,13 @@ To get started with the project:
    git clone https://github.com/yourusername/slot-machine-app.git
 2. Navigate to the project directory:
    ```bash
-  cd slot-machine-app
+   cd slot-machine-app
 3. Install dependencies:
-  ```bash
-   npm install
+    ```bash
+    npm install
 4. Run the application:
-  ```bash
-  ng serve
+    ```bash
+    ng serve
 5. Open your browser and go to http://localhost:4200 to see the application in action.
 
 ## Contributing
