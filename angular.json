@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "slot-machine-app:build:production"
+              "buildTarget": "slot-machine-app:build:production"
             },
             "development": {
-              "browserTarget": "slot-machine-app:build:development"
+              "buildTarget": "slot-machine-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "slot-machine-app:build"
+            "buildTarget": "slot-machine-app:build"
           }
         },
         "test": {
