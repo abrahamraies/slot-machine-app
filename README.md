@@ -1,27 +1,48 @@
-# SlotMachineApp
+# Slot Machine Sentence Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+**Slot Machine Sentence Game** is an interactive educational game designed to help users practice and learn English sentence structure. The game generates random phrases and challenges users to determine if the sentence is correctly structured. 
 
-## Development server
+## How It Works
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Spin the Slot Machine**: Click the "Spin" button to generate a random sentence with various parts of speech, including articles, adjectives, nouns, verbs, prepositions, and pronouns.
 
-## Code scaffolding
+2. **Sentence Structure**: After spinning, a sentence is displayed along with an explanation of the correct sentence structure. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Interactive Drag-and-Drop**: Users can rearrange the words in the sentence using drag-and-drop functionality to see if they can form a correct sentence.
 
-## Build
+4. **Educational Feedback**: The game provides feedback on whether the sentence structure is correct and explains the correct structure.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Features
 
-## Running unit tests
+- **Random Sentence Generation**: Creates sentences with varying levels of coherence.
+- **Drag-and-Drop Functionality**: Allows users to rearrange words to form correct sentences.
+- **Structure Explanation**: Provides a brief explanation of the sentence structure to aid learning.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
 
-## Running end-to-end tests
+- **Angular** for the frontend.
+- **Angular CDK** for drag-and-drop functionality.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Getting Started
 
-## Further help
+To get started with the project:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/slot-machine-app.git
+2. Navigate to the project directory:
+  cd slot-machine-app
+3. Install dependencies:
+   npm install
+4. Run the application:
+   ng serve
+5. Open your browser and go to http://localhost:4200 to see the application in action.
+
+## Contributing
+If you want to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push your branch to your forked repository.
+5. Create a pull request from your branch to the main repository.
